@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  /* font-family: sans-serif; */
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  mix-blend-mode: darken;
+}
+
+.box h2 {
+  font-size: 27px;
+  font-family: "Lugrasimo", cursive;
+  margin-bottom: 20px;
+}
+
+.box h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: fang;
+}
+
+span {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+span i {
+  color: white;
+  font-size: 20px;
+}
+
+.box button {
+  width: 140px;
+  height: 40px;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.7s;
+}
+
+.box button:hover {
+  background-color: #121212;
+  color: white;
+}
